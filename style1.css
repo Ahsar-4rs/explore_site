@@ -1,0 +1,99 @@
+.title{
+    
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-left: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+   
+}
+body{
+     background-image: url('gradient5.jpg');
+    background-size: cover; 
+    /* background-color: rgb(0, 0, 0); */
+    width: 1100px;
+    margin: 0;
+}
+/*#login{
+    width: 40%;
+    height: 230px;
+    margin: auto;
+    background-color: rgb(194, 186, 255);
+    margin-top: 50px;
+    border-width: solid 2;
+    border-style: solid;
+    border-color: black;  
+   
+}*/
+button{
+    width: 25%;
+    padding:5px;
+    text-align: center;
+    
+}
+
+footer{
+    color: white;
+    
+    bottom: 0;
+    left:53%;
+    position:absolute;
+    
+   
+}
+#login{
+    width: 50%;
+    height: 230px;
+    margin-left: 27%;
+    background-color: rgb(249, 244, 168);
+    margin-top: 50px;
+    border-width: solid 1;
+    border-style: solid;  
+    border-color: rgb(0, 0, 0);
+   
+}
+/* q{
+    color: white;
+    font-style: oblique;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    padding: 10px;
+   
+
+} */
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color:  rgb(0, 0, 0);
+    border: solid 1px;
+    border-color: rgb(0, 0, 0);
+    position: fixed;
+    overflow: auto;
+    height: 100%;
+
+}
+li a{
+    display: block;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 16px 16px;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 1px solid black;
+    
+}
+li a.active {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #a1a1a1;
+    color: rgb(1, 1, 1);
+  }
+
